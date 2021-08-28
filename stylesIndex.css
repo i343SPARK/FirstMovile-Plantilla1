@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 320px;
+    height: 40px;
+    border-bottom: black solid 1px;
+}
+
+header .header-logo{
+    margin-top: 15px;
+    position: relative;   
+}
+
+header .header-simbles{
+    margin-top: 15px;
+    position: relative;   
+}
+
+.header-logo img{
+    left: -7px;
+    height: 17.25px;
+    min-width: 52.29px;
+    position: absolute;
+}
+
+.header-simbles .profile{
+    background-image: url('./assets/profile.svg');
+    display: inline-block;
+    margin-right: 26px;
+    min-width: 18.7px;
+    height: 18.7px;
+}
+
+.header-simbles .hamburguer{
+    background-image: url('./assets/hamburguer-menu.svg');
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    min-width: 18.7px;
+    height: 18.7px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+main .main-hero{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main-hero .main-hero--scroll{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+}
+
+.main-hero--scroll .img-1{
+    min-width: 375px;
+    height: 220.5px;
+    background-image: url('./assets/Group2x2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: center;
+}
+
+.main-hero--scroll .img-2{
+    min-width: 375px;
+    height: 220.5px;
+    background-image: url('./assets/Group48x2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: center;
+}
+
+.main-hero .main-hero--data{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+    min-width: 375px;
+}
+
+.main-hero--data h1{
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 24.6px;
+    line-height: 22.37px;
+    width: 160px;
+    text-align: center;
+}
+
+.main-hero--data .hero-context{
+    padding-top: 22px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 6.61px;
+    line-height: 7.93px;
+    text-align: left;
+    width: 295px;
+}
+
+.main-hero--data .hero-next{
+    text-decoration: none;
+    margin: 0 auto;
+    color: black;
+    font-weight: normal;
+    font-size: 10.28px;
+    line-height: 9.3px;
+    width: 59px;
+}
+
+.hero-next span{
+    width: 7.48px;
+    height: 5.32px;
+    display: inline-block;
+    background-image: url('./assets/Black-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
