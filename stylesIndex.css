@@ -110,7 +110,7 @@ main .main-hero{
 
 .main-hero--data .hero-context{
     padding-top: 22px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin: 0 auto;
     font-weight: normal;
     font-size: 6.61px;
@@ -137,4 +137,12 @@ main .main-hero{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+h2{
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 29.62px;
+    line-height: 26.8px;
+    text-align: center;
 }
