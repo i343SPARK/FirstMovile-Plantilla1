@@ -62,8 +62,11 @@ main{
 main .main-hero{
     width: 100%;
     height: auto;
+    display: flex;
     margin: 0 auto;
     margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-hero .main-hero--scroll{
@@ -71,6 +74,8 @@ main .main-hero{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
+    margin: 0 auto;
+    width: 375px;
 }
 
 .main-hero--scroll .img-1{
