@@ -166,3 +166,57 @@ main .main-temario{
     line-height: 13.28px;
 
 }
+
+.center p{
+    font-weight: normal;
+    font-size: 16.6px;
+    line-height: 19.93px;
+}
+
+.main-temario .temario-conten{
+    margin: 0 35px;
+}
+
+.temario-conten .top-img{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+}
+
+.top-img .book{
+    width: 15.4px;
+    height: 12.42px;
+    display: inline-block;
+    background-image: url('./assets/Book.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top-img .video{
+    width: 15.4px;
+    height: 12.42px;
+    display: inline-block;
+    background-image: url('./assets/Video.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top-img .microphone{
+    width: 12.42px;
+    height: 12.42px;
+    display: inline-block;
+    background-image: url('./assets/microphone.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-img .ready{
+    width: 12.42px;
+    height: 12.42px;
+    display: inline-block;
+    background-image: url('./assets/Circul-check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
