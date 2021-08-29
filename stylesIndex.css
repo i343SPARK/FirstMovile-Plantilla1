@@ -179,7 +179,12 @@ main .main-temario{
 }
 
 .main-temario .temario-conten{
-    margin: 0 35px;
+    padding-bottom: 43px;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .temario-conten .top-img{
@@ -198,6 +203,7 @@ main .main-temario{
     background-size: cover;
 }
 .top-img .video{
+    margin-left: 5px;
     width: 15.4px;
     height: 12.42px;
     display: inline-block;
@@ -207,6 +213,7 @@ main .main-temario{
     background-size: cover;
 }
 .top-img .microphone{
+    margin-left: 5px;
     width: 12.42px;
     height: 12.42px;
     display: inline-block;
@@ -217,10 +224,38 @@ main .main-temario{
 }
 
 .top-img .ready{
+    margin-left: 5px;
     width: 12.42px;
     height: 12.42px;
     display: inline-block;
     background-image: url('./assets/Circul-check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.temario-container--img img{
+    width: 233.41px;
+    height: 154.05px;
+}
+
+.temario-conten .bottom-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-img p{
+    margin-top: 4px;
+    font-weight: normal;
+    font-size: 8.37px;
+    line-height: 10.04px;
+}
+
+.bottom-img a span{
+    width: 7.48px;
+    height: 5.32px;
+    display: inline-block;
+    background-image: url('./assets/Black-arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
