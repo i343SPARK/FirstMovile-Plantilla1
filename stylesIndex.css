@@ -291,8 +291,8 @@ footer .footer-experts{
     left: 74px;
     top: 55px;
     margin-top: 12px;
-    width: 32.72px;
-    height: 32.72px;
+    width: 25.72px;
+    height: 26.72px;
     display: inline-block;
     background-image: url('./assets/left-slide.svg');
     background-repeat: no-repeat;
@@ -304,8 +304,8 @@ footer .footer-experts{
 .footer-experts .right-slide{
     right: 74px;
     top: 55px;
-    width: 32.72px;
-    height: 32.72px;
+    width: 25.72px;
+    height: 26.72px;
     display: inline-block;
     background-image: url('./assets/right-slide.svg');
     background-repeat: no-repeat;
