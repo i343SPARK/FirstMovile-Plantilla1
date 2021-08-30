@@ -74,6 +74,7 @@ main .main-hero{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
+    /* overflow-x: hidden; */
     margin: 0 auto;
     width: 375px;
 }
@@ -254,6 +255,130 @@ main .main-temario{
 .bottom-img a span{
     width: 7.48px;
     height: 5.32px;
+    display: inline-block;
+    background-image: url('./assets/Black-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-temario .more{
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 11.6px;
+    line-height: 10.5px;
+    text-align: center;
+}
+
+footer{
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-experts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.footer-experts .left-slide{
+    left: 74px;
+    top: 55px;
+    margin-top: 12px;
+    width: 32.72px;
+    height: 32.72px;
+    display: inline-block;
+    background-image: url('./assets/left-slide.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.footer-experts .right-slide{
+    right: 74px;
+    top: 55px;
+    width: 32.72px;
+    height: 32.72px;
+    display: inline-block;
+    background-image: url('./assets/right-slide.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.footer-experts .footer-experts--scroll{
+    display: flex;
+    gap: 11px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    /* overflow:hidden; */
+    margin: 0 auto;
+    width: 375px;
+    width: 132px;
+}
+
+.footer-experts--scroll .footer-experts--information{
+    scroll-snap-align: center;
+}
+
+.footer-experts--information img{
+    width: 131.82px;
+    height: 100.07px;
+}
+
+.footer-experts--information h3{
+    font-weight: normal;
+    font-size: 9.37px;
+    line-height: 11.25px;
+    text-align: center;
+}
+
+.footer-experts--information .subtitle{
+    font-weight: normal;
+    font-size: 6.17px;
+    line-height: 7.41px;
+    text-align: center;
+}
+
+.footer-experts--information .expert-info{
+    width: 109.58px;
+    height: 74.72px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 6.95px;
+    line-height: 8.34px;
+    text-align: left;
+}
+
+footer a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 12.18px;
+    line-height: 11.02px;
+    text-align: center;
+    margin: 21px auto;
+    width: 100px;
+    width: 112px;
+    height: 19px;
+    padding-top: 4px;
+}
+
+footer a span{
+    width: 10.48px;
+    height: 6.32px;
+    margin-left: 4px;
     display: inline-block;
     background-image: url('./assets/Black-arrow.svg');
     background-repeat: no-repeat;
