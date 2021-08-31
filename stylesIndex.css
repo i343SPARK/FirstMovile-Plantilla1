@@ -128,7 +128,7 @@ main .main-hero{
 
 .main-hero--data .hero-context{
     padding-top: 18px;
-    padding-bottom: 21px;
+    padding-bottom: 10px;
     margin: 0 auto;
     font-weight: normal;
     font-size: 12pt;
@@ -319,13 +319,12 @@ footer .footer-experts{
 }
 
 .footer-experts .left-slide{
-    left: 74px;
-    top: 55px;
-    margin-top: 12px;
+    left: 15px;
+    top: 38px;
     width: 25.72px;
     height: 26.72px;
     display: inline-block;
-    background-image: url('./assets/left-slide.svg');
+    background-image: url('./assets/ArrowLeftRecurso3-20.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -333,12 +332,12 @@ footer .footer-experts{
 }
 
 .footer-experts .right-slide{
-    right: 74px;
-    top: 55px;
+    right: 15px;
+    top: 38px;
     width: 25.72px;
     height: 26.72px;
     display: inline-block;
-    background-image: url('./assets/right-slide.svg');
+    background-image: url('./assets/ArrowRightRecurso2-20.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -351,14 +350,16 @@ footer .footer-experts{
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-    /* overflow:hidden; */
     margin: 0 auto;
-    width: 375px;
-    width: 132px;
+    height: 132px;
+    width: 286px;
 }
+
 
 .footer-experts--scroll .footer-experts--information{
     scroll-snap-align: center;
+    gap: 10px;
+    display: flex;
 }
 
 .footer-experts--information img{
@@ -368,26 +369,26 @@ footer .footer-experts{
 
 .footer-experts--information h3{
     font-weight: normal;
-    font-size: 9.37px;
-    line-height: 11.25px;
-    text-align: center;
+    font-size: 9.37pt;
+    line-height: 11.25pt;
+    text-align: left;
 }
 
 .footer-experts--information .subtitle{
     font-weight: normal;
-    font-size: 6.17px;
-    line-height: 7.41px;
-    text-align: center;
+    font-size: 6.17pt;
+    line-height: 7.41pt;
+    text-align: left;
 }
 
 .footer-experts--information .expert-info{
-    width: 109.58px;
-    height: 74.72px;
+    width: 144.58px;
+    height: 36.72px;
     margin: 0 auto;
     margin-top: 5px;
     font-weight: normal;
-    font-size: 6.95px;
-    line-height: 8.34px;
+    font-size: 6.95pt;
+    line-height: 8.34pt;
     text-align: left;
 }
 
@@ -404,6 +405,7 @@ footer a{
     width: 112px;
     height: 19px;
     padding-top: 4px;
+    border-radius: 14px;
 }
 
 footer a span{
