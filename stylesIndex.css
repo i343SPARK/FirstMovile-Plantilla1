@@ -139,24 +139,25 @@ main .main-hero{
 }
 
 .main-hero--data .hero-next{
-    text-decoration: none;
-    margin: 0px auto;
     color: white;
     font-weight: normal;
-    font-size: 10.28pt;
+    text-decoration: none;
+    font-size: 12.04pt;
+    line-height: 10.89pt;
     text-align: center;
-    line-height: 9.3pt;
-    /* border: black solid 1px; */
-    width: 151px;
-    border-radius: 14px;
-    padding: 9px 0;
-    height: 31px;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 15px;
+    height: 29px;
+    padding-top: 7px;
+    margin-bottom: 30px;
     background-color: #616160;
 }
 
 .hero-next span{
-    width: 12.48px;
+    width: 14.48px;
     height: 9.32px;
+    margin-left: 2px;
     display: inline-block;
     background-image: url('./assets/arrow-white.svg');
     background-repeat: no-repeat;
@@ -341,104 +342,68 @@ footer .footer-experts{
     display: flex;
     justify-content: space-evenly;
     position: relative;
+    margin-bottom: 37px;
 }
 
-.footer-experts .left-slide{
-    left: 15px;
-    top: 38px;
-    width: 25.72px;
-    height: 26.72px;
-    display: inline-block;
-    background-image: url('./assets/ArrowLeftRecurso3-20.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-}
-
-.footer-experts .right-slide{
-    right: 15px;
-    top: 38px;
-    width: 25.72px;
-    height: 26.72px;
-    display: inline-block;
-    background-image: url('./assets/ArrowRightRecurso2-20.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-}
-
-.footer-experts .footer-experts--scroll{
-    display: flex;
-    gap: 11px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    margin: 0 auto;
-    height: 132px;
-    width: 286px;
-}
-
-
-.footer-experts--scroll .footer-experts--information{
+.footer-experts .footer-experts--information{
     scroll-snap-align: center;
     gap: 10px;
     display: flex;
 }
 
 .footer-experts--information img{
-    width: 131.82px;
-    height: 100.07px;
+    width: 124px;
+    height: 124px;
+    border-radius: 80px;
 }
 
 .footer-experts--information h3{
     font-weight: normal;
-    font-size: 9.37pt;
-    line-height: 11.25pt;
+    font-size: 12.47pt;
+    line-height: 14.96pt;
     text-align: left;
 }
 
 .footer-experts--information .subtitle{
     font-weight: normal;
-    font-size: 6.17pt;
-    line-height: 7.41pt;
+    font-size: 8.21pt;
+    line-height: 9.85pt;
     text-align: left;
 }
 
 .footer-experts--information .expert-info{
-    width: 144.58px;
-    height: 36.72px;
+    width: 196.58px;
+    height: auto;
     margin: 0 auto;
     margin-top: 5px;
     font-weight: normal;
-    font-size: 6.95pt;
-    line-height: 8.34pt;
+    font-size: 9.25pt;
+    line-height: 11.1pt;
     text-align: left;
 }
 
 footer a{
-    border: 1px solid black;
-    text-decoration: none;
-    color: black;
+    color: white;
     font-weight: normal;
-    font-size: 12.18px;
-    line-height: 11.02px;
+    text-decoration: none;
+    font-size: 12.04pt;
+    line-height: 10.89pt;
     text-align: center;
-    margin: 21px auto;
-    width: 100px;
-    width: 112px;
-    height: 19px;
-    padding-top: 4px;
-    border-radius: 14px;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 15px;
+    height: 29px;
+    padding-top: 7px;
+    margin-bottom: 30px;
+    background-color: #616160;
 }
 
 footer a span{
-    width: 10.48px;
-    height: 6.32px;
-    margin-left: 4px;
+    width: 14.48px;
+    height: 9.32px;
+    margin-left: 7px;
     display: inline-block;
-    background-image: url('./assets/Black-arrow.svg');
+    background-image: url('./assets/arrow-white.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
