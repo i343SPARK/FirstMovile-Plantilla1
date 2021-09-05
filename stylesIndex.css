@@ -180,64 +180,99 @@ main .main-temario{
     flex-direction: column;
 }
 
-.main-temario .center{
+.main-temario .main-temario--container{
+    width: 325px;
     margin: 0 auto;
+    margin-bottom: 40px;
+    height: auto;
+    background-color: #E8E8E8;
+    border-radius: 8px;
+    box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main-temario--container .main-temario--container-top{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.main-temario--container-top img{
+    width: 160px;
+    margin-left: 14px;
+    height: 138px;
+}
+
+.main-temario--container-top div{
+    position: absolute;
+    left: 178px;
+}
+
+.main-temario--container-top div .tema-number{
+    font-size: 16pt;
+    line-height: 19.2pt;
+    font-weight: normal;
     text-align: center;
 }
 
-.center h3{
-    font-weight: normal;
-    font-size: 11.07pt;
-    line-height: 13.28pt;
-
-}
-
-.center p{
-    font-weight: 500;
+.main-temario--container-top div .tema-name{
+    font-size: 17pt;
+    line-height: 20.4pt;
     font-style: italic;
-    font-size: 16.6pt;
-    line-height: 19.93pt;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.main-temario .temario-conten{
-    padding-bottom: 43px;
-    padding-top: 30px;
+.main-temario--container-top div .tema-description{
+    font-size: 9pt;
+    line-height: 8.81pt;
+    font-weight: normal;
+    text-align: center;
+    width: 112px;
     margin: 0 auto;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-.temario-conten .top-img{
+.main-temario--container .main-temario--container-bottom{
     display: flex;
-    justify-content: flex-end;
-    padding-bottom: 7px;
-    margin: 0px 55px;
+    position: relative;
+    padding-bottom: 15px;
 }
 
-.top-img .book{
-    width: 10.4px;
-    height: 9.42px;
+.main-temario--container-bottom .time{
+    font-size: 10pt;
+    line-height: 12pt;
+    font-weight: normal;
+    margin-left: 13px;
+}
+
+.main-temario--container-bottom div{
+    margin-left: 56px;
+}
+
+.main-temario--container-bottom div .book{
+    width: 15px;
+    height: 13px;
     display: inline-block;
     background-image: url('./assets/Book.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.top-img .video{
-    margin-left: 5px;
-    width: 13.4px;
-    height: 10.42px;
+
+.main-temario--container-bottom div .video{
+    width: 16px;
+    height: 13px;
     display: inline-block;
     background-image: url('./assets/Video.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.top-img .microphone{
-    margin-left: 5px;
-    width: 10.42px;
-    height: 10.42px;
+
+.main-temario--container-bottom div .microphone{
+    width: 13px;
+    height: 13px;
     display: inline-block;
     background-image: url('./assets/microphone.svg');
     background-repeat: no-repeat;
@@ -245,10 +280,9 @@ main .main-temario{
     background-size: cover;
 }
 
-.top-img .ready{
-    margin-left: 5px;
-    width: 10.42px;
-    height: 10.42px;
+.main-temario--container-bottom div .checklist{
+    width: 13px;
+    height: 13px;
     display: inline-block;
     background-image: url('./assets/Circul-check.svg');
     background-repeat: no-repeat;
@@ -256,35 +290,23 @@ main .main-temario{
     background-size: cover;
 }
 
-.temario-conten .temario-container--img{
-    min-width: 375px;
+.main-temario--container-bottom a{
+    height: 45px;
+    width: 45px;
+    background-color: #727272;
+    border-radius: 27px;
+    position: absolute;
+    right: 22px;
+    top: -10px;
+    box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.temario-container--img img{
-    min-width: 375px;
-    height: 154.05px;
-    margin-bottom: 9px;
-}
-
-.temario-conten .bottom-img{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 55px;
-}
-
-.bottom-img p{
-    margin-top: 4px;
-    font-weight: normal;
-    font-size: 8.37pt;
-    line-height: 10.04px;
-}
-
-.bottom-img a span{
-    width: 23.48px;
-    border-radius: 15px;
-    height: 16.32px;
+.main-temario--container-bottom a .start-topic{
+    width: 27px;
+    height: 25px;
+    margin: 9px 9px;
     display: inline-block;
-    background-image: url('./assets/arrow.jpg');
+    background-image: url('./assets/whiteArrowx3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -294,14 +316,14 @@ main .main-temario{
     color: black;
     font-weight: normal;
     text-decoration: none;
-    font-size: 9.74pt;
-    line-height: 8.81pt;
+    font-size: 15.35pt;
+    line-height: 13.89pt;
     text-align: center;
     margin: 0 auto;
-    width: 92px;
+    width: 150px;
     border: 1px solid black;
     border-radius: 15px;
-    height: 21px;
+    height: 29px;
     padding-top: 4px;
 }
 
