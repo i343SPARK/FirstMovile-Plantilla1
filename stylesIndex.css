@@ -142,24 +142,24 @@ main .main-hero{
     color: white;
     font-weight: normal;
     text-decoration: none;
-    font-size: 12.04pt;
+    font-size: 14.04pt;
     line-height: 10.89pt;
     text-align: center;
     margin: 0 auto;
     width: 150px;
     border-radius: 15px;
-    height: 29px;
-    padding-top: 7px;
+    height: 33px;
+    padding-top: 9px;
     margin-bottom: 30px;
     background-color: #616160;
 }
 
 .hero-next span{
-    width: 14.48px;
-    height: 9.32px;
+    width: 18.48px;
+    height: 12.32px;
     margin-left: 2px;
     display: inline-block;
-    background-image: url('./assets/arrow-white.svg');
+    background-image: url('./assets/whiteArrowx3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -303,7 +303,7 @@ main .main-temario{
 }
 
 .main-temario--container-bottom a .start-topic{
-    width: 27px;
+    width: 28px;
     height: 25px;
     margin: 9px 9px;
     display: inline-block;
@@ -386,24 +386,24 @@ footer a{
     color: white;
     font-weight: normal;
     text-decoration: none;
-    font-size: 12.04pt;
+    font-size: 14.04pt;
     line-height: 10.89pt;
     text-align: center;
     margin: 0 auto;
     width: 150px;
     border-radius: 15px;
-    height: 29px;
-    padding-top: 7px;
+    height: 33px;
+    padding-top: 9px;
     margin-bottom: 30px;
     background-color: #616160;
 }
 
 footer a span{
-    width: 14.48px;
-    height: 9.32px;
+    width: 18.48px;
+    height: 12.32px;
     margin-left: 7px;
     display: inline-block;
-    background-image: url('./assets/arrow-white.svg');
+    background-image: url('./assets/whiteArrowx3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
