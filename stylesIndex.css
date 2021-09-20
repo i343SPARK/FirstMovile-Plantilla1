@@ -44,20 +44,63 @@ header .header-simbles{
     margin-right: 26px;
     min-width: 18.7px;
     height: 18.7px;
+    cursor: pointer;
 }
 
 .header-simbles .hamburguer{
-    background-image: url('./assets/hamburguer-menu.svg');
     display: inline-block;
     position: absolute;
     left: 35px;
     min-width: 18.7px;
     height: 18.7px;
+    cursor: pointer;
+    z-index: 10;
 }
+
 
 main{
     width: 100%;
     height: auto;
+}
+
+.cont-menu{
+    background-color: rgb(226, 226, 226);
+    box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+    width: 375px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.active{
+    transform: translate(0, -800px);
+}
+
+.opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease;
+}
+
+/* Estilos para el listado del menu */
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li{
+    color: rgb(1, 1, 1);
+    display: block;
+    font-size: 3.5rem;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228, 228, 228);
+    color: rgb(42, 42, 42);
 }
 
 main .main-hero{
