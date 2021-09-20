@@ -8,7 +8,7 @@ iconMenu.addEventListener('click', (e) =>{
     const rutaActual = e.target.getAttribute('src');
 
     if(rutaActual == './assets/hamburguer-menu.svg'){
-        e.target.setAttribute('src','./assets/hamburguer-menu.svg');
+        e.target.setAttribute('src','./assets/x.png');
     }else{
         e.target.setAttribute('src','./assets/hamburguer-menu.svg');
     }

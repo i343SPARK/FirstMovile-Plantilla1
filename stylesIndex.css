@@ -75,7 +75,7 @@ main{
 }
 
 .active{
-    transform: translate(0, -800px);
+    transform: translate(0, -1800px);
 }
 
 .opacity{
