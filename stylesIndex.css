@@ -11,22 +11,32 @@ html{
 }
 
 header {
-    margin: 0 20px;
+    max-width: 100%;
+    min-width: 375px;
+    height: 40px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    top: 0px;
+}
+
+header .linitia{
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
-    min-width: 320px;
-    height: 40px;
+    max-width: 77%;
+    min-width: 300px;
+    height: 35px;
     border-bottom: black solid 1px;
 }
 
-header .header-logo{
-    margin-top: 15px;
+header .linitia .header-logo{
+    margin-top: 13px;
     position: relative;   
 }
 
-header .header-simbles{
-    margin-top: 9px;
+header .linitia .header-simbles{
+    margin-top: 8px;
     position: relative;   
 }
 
@@ -59,19 +69,21 @@ header .header-simbles{
 
 
 main{
+    margin-top: 47px;
     width: 100%;
     height: auto;
 }
 
 .cont-menu{
-    background-color: rgb(226, 226, 226);
+    background-color: white;
     box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
     width: 375px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     transition: all .5s ease;
+    z-index: 1;
 }
 
 .active{
