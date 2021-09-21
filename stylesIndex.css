@@ -103,10 +103,10 @@ main{
 .cont-menu ul li{
     color: rgb(1, 1, 1);
     display: block;
-    font-size: 3.5rem;
-    text-decoration: none;
+    font-size: 2.5rem;
     padding: 10px 50px;
     cursor: pointer;
+    text-align: end;
 }
 
 .cont-menu ul li:hover{
