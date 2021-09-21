@@ -25,6 +25,7 @@ header .linitia{
     justify-content: space-between;
     max-width: 86%;
     height: 47px;
+    margin-top: 2px;
     border-bottom: black solid 1px;
 }
 
@@ -77,7 +78,7 @@ main{
     background-color: white;
     box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
     width: 375px;
-    height: 100vh;
+    height: 70vh;
     position: fixed;
     top: 0;
     left: 0;
