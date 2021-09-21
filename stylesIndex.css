@@ -55,13 +55,14 @@ header .linitia .header-simbles{
     cursor: pointer;
 }
 
-.header-simbles .hamburguer{
+.header-simbles .img-hamburguer .hamburguer{
     display: inline-block;
     position: absolute;
     left: 35px;
     min-width: 20.7px;
     height: 21.7px;
     cursor: pointer;
+    top: 0px;
     z-index: 10;
 }
 
@@ -353,6 +354,16 @@ main .main-temario{
     right: 22px;
     top: -10px;
     box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: ease 300ms;
+}
+
+.main-temario--container-bottom a:hover{
+    background-color: #555555;
+    transition: ease 100ms;
+}
+
+.main-temario--container-bottom a:active{
+    background-color: #ffc907;
 }
 
 .main-temario--container-bottom a .start-topic{

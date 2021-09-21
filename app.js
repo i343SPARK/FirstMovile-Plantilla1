@@ -1,4 +1,4 @@
-const iconMenu = document.querySelector('#header-simbles'),
+const iconMenu = document.querySelector('#img-js'),
 menu = document.querySelector('#menu');
 
 iconMenu.addEventListener('click', (e) =>{
